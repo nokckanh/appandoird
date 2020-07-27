@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen.LichtrinhActivity"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toobarlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:id="@+id/back_arrow_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10">
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                android:background="?attr/selectableItemBackground"
+                android:id="@+id/toolbar_back_arrow"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabllayoutlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tabIndicatorColor="#03A9F4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="56dp">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/itemchitieu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chi Tiêu" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/itemhh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hàng hóa" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/itemkh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khách hàng" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/paperviewlichtrinh"
+        android:layout_width="409dp"
+        android:layout_height="625dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+
+</LinearLayout>

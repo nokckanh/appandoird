@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabllayoutlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        app:tabIndicatorColor="#03A9F4">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/itemlt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lịch trình" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/itemhh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ghi chú" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/itemkh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thông tin" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpaper"
+        android:layout_width="match_parent"
+        android:layout_height="629dp"
+        tools:ignore="MissingClass" />
+
+</LinearLayout>

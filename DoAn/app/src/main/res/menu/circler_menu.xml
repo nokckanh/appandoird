@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/addlichtrinh"
+        android:icon="@drawable/baseline_post_add_black_18dp"
+        android:title="@string/menu_item_call" />
+    <item
+        android:id="@+id/action_text"
+        android:icon="@drawable/ic_chat_bubble_outline_black_24px"
+        android:title="@string/menu_item_text"/>
+    <item
+        android:id="@+id/action_email"
+        android:icon="@drawable/ic_mail_outline_black_24px"
+        android:title="@string/menu_item_email" />
+</menu>

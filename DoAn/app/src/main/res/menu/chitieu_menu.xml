@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/callthunhap"
+        android:icon="@drawable/baseline_attach_money_black_18dp"
+        android:title="Thu nhập" />
+    <item
+        android:id="@+id/action_text"
+        android:icon="@drawable/baseline_money_off_black_18dp"
+        android:title="Chi tiêu"/>
+    <item
+        android:id="@+id/action_email"
+        android:icon="@drawable/ic_mail_outline_black_24px"
+        android:title="@string/menu_item_email" />
+</menu>

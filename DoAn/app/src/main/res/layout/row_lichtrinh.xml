@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:background="@drawable/boder"
+    >
+
+    <LinearLayout
+        android:layout_width="164dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:orientation="vertical"
+        android:background="@drawable/boder"
+        >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:text="Ngày đi"
+            android:textColor="#000C5D"
+            android:textSize="18sp"
+            android:layout_marginLeft="12dp"/>
+
+        <TextView
+            android:id="@+id/noidung"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:text="Tuyến đi"
+            android:textColor="#000"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="113dp"
+            android:layout_height="25dp"
+            android:gravity="right"
+            android:text="Giờ Xuất Bến:"
+            android:textAlignment="textStart"
+            android:textColor="#F63EA5"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.119"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.506"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/hourgo"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Giờ"
+            android:textAlignment="textStart"
+            android:textColor="#F63EA5"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.826"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/idlichtrinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="TextView"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="7dp"
+
+            tools:ignore="MissingConstraints" />
+<!--android:visibility = "gone"-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
