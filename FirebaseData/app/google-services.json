@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1058898567575",
+    "firebase_url": "https://fir-test-96eb3.firebaseio.com",
+    "project_id": "fir-test-96eb3",
+    "storage_bucket": "fir-test-96eb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058898567575:android:22d1243be6b62ee36fa4d2",
+        "android_client_info": {
+          "package_name": "com.vanhieu.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058898567575-a6lrirjnke4di1f6ith9247sho5ht4gr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vanhieu.firebaseapp",
+            "certificate_hash": "38e8819d859777a7d73cd880b9a5ffd7daa9e3a9"
+          }
+        },
+        {
+          "client_id": "1058898567575-2cqvgtnrhfitg0ee8pkt105m2tkt5g6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhtsgkFPLv-6UqRrNU901mPABKxpu2ul8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058898567575-2cqvgtnrhfitg0ee8pkt105m2tkt5g6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
